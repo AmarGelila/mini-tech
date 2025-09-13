@@ -10,7 +10,7 @@ const phones = {
       currency: "USD",
       colors: ["Midnight Black", "Glacier Silver", "Sage Green"],
       storage: "256 GB",
-      image_url: "mini-tech/images/placholder.jpg",
+      image_url: "./images/placholder.jpg",
       description:
         "Flagship phone with a pro-grade camera system, super bright display, and all-day battery life.",
     },
@@ -23,7 +23,7 @@ const phones = {
       currency: "USD",
       colors: ["Awesome Graphite", "Awesome Lilac", "Awesome Blue"],
       storage: "128 GB",
-      image_url: "./mini-tech/images/placholder.jpg",
+      image_url: "././images/placholder.jpg",
       description:
         "A powerful and versatile phone with a stunning AMOLED display and long-lasting battery.",
     },
@@ -75,7 +75,7 @@ const phones = {
       currency: "USD",
       colors: ["Starlight Blue", "Deep Sea Black", "Peach"],
       storage: "128 GB",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "/./images/placholder.jpg",
       description:
         "An excellent budget-friendly option featuring a large display, impressive battery life, and a sleek design.",
     },
@@ -88,7 +88,7 @@ const phones = {
       currency: "USD",
       colors: ["Obsidian", "Hazel", "Rose"],
       storage: "128 GB",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "/./images/placholder.jpg",
       description:
         "The Google-powered phone with the best-in-class camera computational photography, a vibrant display, and seamless Android experience.",
     },
@@ -101,7 +101,7 @@ const phones = {
       currency: "USD",
       colors: ["Phantom Black"],
       storage: "512 GB",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "/./images/placholder.jpg",
       description:
         "The ultimate gaming phone. Features a super-fast refresh rate display, vapor chamber cooling, and customizable triggers for elite mobile gameplay.",
     },
