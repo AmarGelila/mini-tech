@@ -10,7 +10,7 @@ const watches = {
       currency: "USD",
       colors: ["Starlight", "Midnight", "Silver", "Product(RED)", "Pink"],
       caseSize: "41mm & 45mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "./mini-tech/images/placholder.jpg",
       description:
         "The most powerful Apple Watch yet. Features a bright Always-On display, advanced health sensors like ECG and blood oxygen, and crash detection.",
     },
@@ -36,7 +36,7 @@ const watches = {
       currency: "USD",
       colors: ["Platinum", "Black", "Waterfall Blue"],
       caseSize: "40mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "mini-tech/images/placholder.jpg",
       description:
         "A fitness-focused smartwatch with built-in GPS, 40+ exercise modes, and access to Google apps. Offers a 6+ day battery life and detailed health metrics in the Fitbit app.",
     },
@@ -49,7 +49,7 @@ const watches = {
       currency: "USD",
       colors: ["Black", "Green", "Sand"],
       caseSize: "47mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "../images/placholder.jpg",
       description:
         "An ultra-rugged military-grade watch built for adventure. Features dual-band GPS, 24-day battery life, and is resistant to extreme temperatures, humidity, and shock.",
     },
@@ -62,7 +62,7 @@ const watches = {
       currency: "USD",
       colors: ["Black", "White"],
       caseSize: "47mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "./images/placholder.jpg",
       description:
         "A premium multisport GPS watch with a brilliant AMOLED display. Offers mapping, advanced training metrics, health monitoring, and up to 16 days of battery life.",
     },
@@ -75,7 +75,7 @@ const watches = {
       currency: "USD",
       colors: ["Platinum", "Graphite", "Blue"],
       caseSize: "40mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "/images/placholder.jpg",
       description:
         "Fitbit's most advanced health smartwatch. Includes tools for managing stress and tracking skin temperature variation (SDOV), along with ECG and heart rate tracking.",
     },
@@ -88,7 +88,7 @@ const watches = {
       currency: "USD",
       colors: ["Polished Silver", "Matte Black", "Champagne Gold"],
       caseSize: "41mm",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "images/placholder.jpg",
       description:
         "The seamless Google watch. Features Fitbit health tracking, safety features like Safety Check, and deep integration with Android and Google services like Wallet and Assistant.",
     },
