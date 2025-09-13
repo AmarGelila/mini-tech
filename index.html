@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MIni</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Icons+Outlined"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div id="search-results" class="position-fixed p-5 rounded-3">
+      <div class="content overflow-y-scroll"></div>
+      <button class="btn btn-danger mt-5">Cancel</button>
+    </div>
+
+    <header>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container-fluid gap-3 justify-content-stretch">
+          <a class="navbar-brand" href="#">MIni</a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div
+            class="collapse navbar-collapse ms-auto"
+            id="navbarNav"
+            class="mt-5"
+          >
+            <div
+              class="container-fluid d-flex flex-column flex-lg-row align-items-start justify-content-lg-end p-0"
+            >
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    class="nav-link active route"
+                    aria-current="page"
+                    href="home"
+                    >HOME</a
+                  >
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link route" href="mobiles">MOBILES</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link route" href="watches">WATCHES</a>
+                </li>
+                <li class="nav-item">
+                  <a
+                    class="nav-link route me-4 fs-4 position-relative"
+                    id="cart"
+                    href="cart"
+                  >
+                    <span class="material-icons">shopping_cart</span>
+                    <span
+                      class="count align-items-center justify-content-center rounded-circle position-absolute bg-danger text-white p-3"
+                    ></span>
+                  </a>
+                </li>
+              </ul>
+
+              <div
+                class="actions d-flex flex-column flex-lg-row align-items-start"
+              >
+                <form class="d-flex me-lg-2" role="search">
+                  <div class="input-group">
+                    <input
+                      class="form-control flex-shrink-1"
+                      type="search"
+                      value=""
+                      placeholder="Search Products"
+                      aria-label="Search"
+                    />
+                    <button
+                      class="btn btn-outline-secondary d-flex"
+                      type="submit"
+                      id="search"
+                      class="mt-5"
+                    >
+                      <span class="material-icons">search</span>
+                    </button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main></main>
+
+    <footer class="pt-5 border-top">
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-md-4 col-lg-4 px-4">
+            <img src="images/main-logo.png" alt="MIni logo" />
+            <p class="text-muted mt-2">
+              Nisi, purus vitae, ultrices nunc. Sit ac sit suscipit hendrerit.
+              Gravida massa volutpat aenean odio erat nullam fringilla.
+            </p>
+            <div class="social-links d-flex align-items-center gap-1">
+              <a href=""><i class="text-black-50 fa-brands fa-facebook"></i></a>
+              <a href=""
+                ><i class="text-black-50 fa-brands fa-instagram"></i
+              ></a>
+              <a href=""><i class="text-black-50 fa-brands fa-twitter"></i></a>
+              <a href=""><i class="text-black-50 fa-brands fa-linkedin"></i></a>
+              <a href=""><i class="text-black-50 fa-brands fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-2">
+            <h3 class="mb-2">Quick links</h3>
+            <ul class="ps-2">
+              <li>
+                <a href="#" class="text-decoration-none text-black-50">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50">About</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50">Shop</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50">Blogs</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50"
+                  >Contact</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h3 class="mb-2">Help & Info Help</h3>
+            <ul class="ps-2">
+              <li>
+                <a href="#" class="text-decoration-none text-black-50"
+                  >Track Your Order
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50"
+                  >Shipping + Delivery
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50"
+                  >Returns Policies
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50"
+                  >Contact Us
+                </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-black-50">Faqs</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-lg-3">
+            <h3 class="mb-2">Contact us</h3>
+            <p class="text-black-50 lh-2">
+              Do you have any queries or suggestions?
+              <a href="mailto:someone@gmail.com" class="text-dark">
+                yourinfo@gmail.com</a
+              >
+            </p>
+            <p class="text-black-50 lh-2">
+              If you need support? Just give us a call.
+              <a href="tel:+201054764578987" class="text-dark">
+                +55 111 222 333 44</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div
+          class="row justify-content-center text-black-50 mt-5 pt-3 border-top"
+        >
+          <div class="col-md-3 col-lg-3">
+            <p class="d-flex align-items-center gap-2">
+              We ship with :
+              <span class="d-inline-flex align-items-center gap-2">
+                <img src="images/dhl.png" alt="DHL logo" />
+                <img src="images/shippingcard.png" alt="Shipping card logo" />
+              </span>
+            </p>
+          </div>
+          <div class="col-md-3 col-lg-3">
+            <p class="d-flex align-items-center gap-2">
+              Payment options :
+              <span class="d-inline-flex align-items-center gap-1"
+                ><img src="images/mastercard.jpg" alt="mastercard logo" />
+                <img src="images/paypal.jpg" alt="Paypal logo" /><img
+                  src="images/visa.jpg"
+                  alt="visa logo"
+                />
+              </span>
+            </p>
+          </div>
+          <div class="col-md-6 col-lg-6">
+            <p>
+              &copy; Copyright 2025 MIni. Design by
+              <span class="text-dark fw-bold">TemplatesJungle</span>
+              Distribution by <span class="text-dark fw-bold">ThemeWagon</span>
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js" type="module"></script>
+  </body>
+</html>

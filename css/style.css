@@ -1,0 +1,137 @@
+ul {
+  list-style: none;
+}
+h5 {
+  font-size: 0.8rem !important;
+}
+h6 {
+  font-size: 0.7rem !important;
+}
+header .actions > div a,
+header .actions > div button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+header .actions > div a:hover,
+header .actions > div button:hover {
+  opacity: 0.7;
+}
+
+header .material-icons {
+  display: inline-block;
+  width: 20px;
+}
+
+#carousel-landing .carousel-inner {
+  margin-top: 56px;
+  height: calc(100vh - 56px);
+}
+
+#carousel-landing .carousel-item::-webkit-scrollbar {
+  display: none;
+}
+#carousel-landing .carousel-item > div .carousel-item .image {
+  flex-basis: 45%;
+}
+#carousel-landing .carousel-control-next,
+#carousel-landing .carousel-control-prev {
+  width: 30px;
+}
+
+@media (max-width: 992px) {
+  header .actions {
+    order: -1;
+  }
+}
+
+.feature .material-icons-outlined {
+  font-size: 35px;
+}
+
+.user-action .card,
+.user-action .card img {
+  border-radius: 0;
+}
+
+.user-action .product button {
+  visibility: hidden;
+  width: calc(100% - 30px);
+  bottom: -100px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0.1;
+  transition: all 1s ease-out;
+}
+
+.user-action .product:hover button {
+  visibility: visible;
+  bottom: 40%;
+  opacity: 1;
+}
+
+#sale .text {
+  transform: translateY(-50%);
+  background-color: rgba(238, 238, 238, 0.568);
+}
+
+#quote .head-icon {
+  font-size: 75px;
+}
+
+#insta .item::before {
+  content: "\e3f1";
+  font-family: "Material Icons";
+  font-size: 75px;
+  color: white;
+  height: 100px;
+  position: absolute;
+  left: 50%;
+  bottom: 20%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+#insta .item:hover {
+  cursor: pointer;
+}
+#insta .item:hover::before {
+  top: 50%;
+  opacity: 1;
+}
+
+#search-results {
+  height: calc(100vh - 109px);
+  top: 105px;
+  display: none;
+  z-index: 2000;
+  text-align: center;
+  background-color: white;
+}
+
+#search-results .content {
+  height: calc(100% - 109px);
+}
+@media (min-width: 992px) {
+  #search-results {
+    top: 56px;
+    height: calc(100vh - 60px);
+  }
+  #search-results .content {
+    height: calc(100% - 60px);
+  }
+}
+
+header form {
+  z-index: 2000;
+}
+
+#cart .count {
+  right: -15px;
+  top: -7px;
+  width: 20px;
+  height: 20px;
+  display: none;
+}
