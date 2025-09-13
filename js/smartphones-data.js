@@ -10,7 +10,7 @@ const phones = {
       currency: "USD",
       colors: ["Midnight Black", "Glacier Silver", "Sage Green"],
       storage: "256 GB",
-      image_url: "/mini-tech/images/placholder.jpg",
+      image_url: "mini-tech/images/placholder.jpg",
       description:
         "Flagship phone with a pro-grade camera system, super bright display, and all-day battery life.",
     },
